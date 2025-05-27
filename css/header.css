@@ -1,0 +1,22 @@
+.header-bk{
+    /* background-color: #99ca38; */
+}
+
+.header-conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header-conteudo ul{
+    display: flex;
+    gap: 35px;
+}
+
+@media(max-width:1200px){
+    .header-conteudo{
+        padding: 10px;
+    }
+}

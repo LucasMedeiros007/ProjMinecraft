@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+[class $="conteudo"]{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.botao-verde{
+    background-color: #99ca38;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fbfff3;
+}
+
+img{
+    max-width: 100%;
+}
+
+@media(max-width:1200px){
+    /* [class $="conteudo"]{
+        padding: 0 5px;
+    } */
+}
